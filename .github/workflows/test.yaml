@@ -22,7 +22,7 @@ jobs:
       
   coverage:
     runs-on: ubuntu-latest
-    name: Test python API
+    name: codecov
     steps:
     - uses: actions/checkout@v1
     - name: Install requirements
